@@ -1,0 +1,42 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.kv {
+    background-color: white;
+    width: 250px;
+    height: 320px;
+    display: inline-block;
+    margin: 16px;
+    border: 7px solid black;
+    border-radius: 7px;
+  
+}
+.kv2 {
+    background-color: white;
+    width: 250px;
+    height: 340px;
+    display: inline-block;
+    margin: 16px;
+    border: 7px solid black;
+    border-radius: 7px;
+  
+}
+
+.kv3 {
+    background-color: white;
+    width: 250px;
+    height: 310px;
+    display: inline-block;
+    margin: 16px;
+    border: 7px solid black;
+    border-radius: 7px;
+
+}

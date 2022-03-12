@@ -1,0 +1,43 @@
+* {
+    margin:auto;
+    padding: auto;
+
+}
+html, body{
+    background-color:  white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.kvadrat2 {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 7px;
+    position: absolute;
+  right: 10%;
+  top: 25%;
+     
+}
+.kvadratik2 {
+height: 250px;
+width: 250px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 7px;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+.kvadratik22 {
+    width: 750px;
+    height: 450px;
+    position: relative;
+    border: 5px solid black;
+    border-radius: 7px; 
+}

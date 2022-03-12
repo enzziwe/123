@@ -5,17 +5,17 @@ function getResult_1(string) {
 console.log(getResult_1('имя'), '==', 'Имя')
 
 function getResult_2(array) {
-    var number = 0;
+ var number = 0;
 
     //for (let i = 0; i < array.length; i++) {
-    //    number = number + array[i];
+            //    number = number + array[i];
     //  }
 
-    array.map((a) => {
-        number = number + a
+array.map((a) => {
+number = number + a
     })
 
-    return number
+ return number
 }
 
 console.log(getResult_2([1, 2, 3, 4, 5]), '==', 15)
@@ -24,7 +24,7 @@ console.log(getResult_2([-2, -2, 0, 4]), '==', 0)
 
 
 function getResult_3(string) {
-    string.replace(/\d+/g, "!");
+ string.replace(/\d+/g, "!");
     return string
 }
 

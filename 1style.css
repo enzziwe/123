@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding: 0;
+
+}
+html, body{
+    background-color:  white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.kvadrat {
+    height: 150px;      
+    width: 150px;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 7px;
+   position: relative;
+   
+}
+.kvadratik {
+    height: 600px;
+    width: 900px;
+    background-color: white;
+    border: 7px solid black;
+    border-radius: 7px;
+ position: absolute;   
+}

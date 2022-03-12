@@ -1,0 +1,60 @@
+html, body {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: column-reverse;
+}
+
+
+
+
+
+
+
+.vvv {
+    background-color: white;
+    width: 750px;
+    height: 100px;
+    display: inline-block;
+  border: 7px solid black;
+  border-radius: 7px;
+  margin-top: 15px;
+  margin-left: 250px;
+}
+
+
+.vvv2 {
+    background-color: white;
+    width: 750px;
+    height: 100px;
+    display: inline-block;
+  border: 7px solid black;
+  border-radius: 7px;
+  margin-top: 15px;
+  margin-left: 250px;
+}
+.vvv3 {
+    background-color: white;
+    width: 750px;
+    height: 100px;
+    display: inline-block;
+  border: 7px solid black;
+  border-radius: 7px;
+  margin-top: 15px;
+  margin-left: 250px;
+}
+.vvv4 {
+    background-color: white;
+    width: 750px;
+    height: 100px;
+    display: inline-block;
+  border: 7px solid black;
+  border-radius: 7px;
+  margin-top: 15px;
+  margin-left: 250px;
+}
