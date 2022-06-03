@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(252, 164, 166);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.chapters {
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coffee {
+    width: 500px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 60px;
+}
+
+.chapters_2 {
+    width: 500px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+
+.home {
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.basic_info {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.coffe_dring {
+    color: white;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.help {
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.button {
+    width: 110px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.knopka {
+    width: 110px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    background-color: rgb(193, 87, 106);
+    outline: none;
+    border-radius: 7px;
+    font-size: 13px;
+    display: flex;
+    font-weight: 500;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.coffee_img {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    position: absolute;
+    width: 450px;
+    height: 320px;
+}
+
+
+
+#img1 {
+    animation: img1 3.5s ease-in-out infinite;
+}
+
+@keyframes img1 {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(45px, -45px);
+    }
+    50% {
+        transform: translate(0, 0);
+    }
+    75% {
+        transform: translate(20px, -20px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+#img2 {
+    animation: img2 3.5s ease-in-out infinite;
+}
+
+@keyframes img2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    23% {
+        transform: translate(45px, -45px);
+    }
+    49% {
+        transform: translate(0px, 0px);
+    }
+    76% {
+        transform: translate(20px, -20px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+#img3 {
+    animation: img3 3.5s ease-in-out infinite;
+}
+
+@keyframes img3 {
+    0% {
+        transform: translate(0, 0);
+    }
+    22% {
+        transform: translate(45px, -45px);
+    }
+    50% {
+        transform: translate(0px, 0px);
+    }
+    72% {
+        transform: translate(20px, -20px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+#img4 {
+    animation: img4 3.5s ease-in-out infinite;
+}
+
+@keyframes img4 {
+    0% {
+        transform: translate(0, 0);
+    }
+    24% {
+        transform: translate(45px, -45px);
+    }
+    46% {
+        transform: translate(0px, 0px);
+    }
+    76% {
+        transform: translate(20px, -20px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+#img5 {
+    animation: img5 3.5s ease-in-out infinite;
+}
+
+@keyframes img5 {
+    0% {
+        transform: translate(0, 0);
+    }
+    23% {
+        transform: translate(45px, -45px);
+    }
+    47% {
+        transform: translate(0px, 0px);
+    }
+    74% {
+        transform: translate(20px, -20px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+#img6 {
+    animation: img6 3.5s ease-in-out infinite;
+}
+
+@keyframes img6 {
+    0% {
+        transform: translate(0, 0);
+    }
+    22% {
+        transform: translate(45px, -45px);
+    }
+    46% {
+        transform: translate(0px, 0px);
+    }
+    72% {
+        transform: translate(20px, -20px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
